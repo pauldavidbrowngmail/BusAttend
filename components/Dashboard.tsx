@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { TrendingUp, Users, Calendar, AlertCircle, BrainCircuit, ArrowRight } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, Cell } from 'recharts';
 import { Student, AttendanceRecord, AIInsight } from '../types';
-import { analyzeAttendanceData } from '../services/geminiService';
+import { analyzeAttendanceData } from '../services/aiService';
 
 const MOCK_CHART_DATA = [
   { name: 'Mon', attendance: 92 },
